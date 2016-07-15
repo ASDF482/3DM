@@ -242,19 +242,12 @@ function create_config( )
     "reload",
     "whitelist"
     },
-    sudo_users = {233848932,0,tonumber(our_id)},--Sudo users
+    sudo_users = {236571402,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Tele Tak v4
+    about_text = [[3DM v4
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/ASDF482/TeleTak
-
-Admins
-@MasterEnternal [Founder]
-@ali_baaaaax [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+https://github.com/ASDF482/3DM
 
 Special thanks to
 awkward_potato
@@ -263,19 +256,17 @@ topkecleon
 Vamptacus
 
 Our channels
-@EnternalEN [English]
-@irEnternal [persian]
+@Ayzen_3DM
+
 ]],
     help_text_realm = [[
-Help is Not set. Pok My Sudo @MRcodex
-Thanks. ~ TeleTak ~
+Help Text is Not Allowed Here.
 ]],
     help_text = [[
-Help is Not set. Pok My Master : @MasterEnternal
-Thanks.~ Enternal ~
+Help Text is Not Allowed Here.
 ]],
 	help_text_super =[[
-Enternal Command help List
+3DM (TM) Command help List
 
 !kick [username|id]                    
 well kick user as a Group
@@ -305,7 +296,7 @@ Lock links,flood,spam,rtl
 unlock links,flood,spam,rtl 
 
 !mute [all,chat,photo,gifs]           
-Mute all exampel [ !mute all ] muted all trut
+Mute all exampel [ !mute all ] muted all trut's
 
 !unmote [all,chat,photo,gifs]         
 unmoted all trut
@@ -351,11 +342,11 @@ Mute Cerles User
 
 More plugins Comming Soon ...
 --------------------------------------
-Support Enternal :
-Not Set Pok My Master | @MasterEnternal
+Channel : 
+× ~ ! @Ayzen_3DM ! ~ ×
 
-BlackEnternal Team. 
-#Master ( ~ ! M O S A F E R ! ~ )
+
+3DM (TM) Programer
 ]],
   }
   serialize_to_file(config, './data/config.lua')
